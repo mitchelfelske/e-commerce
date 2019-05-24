@@ -11,5 +11,5 @@ app.get('/', (req, res) => res.json([{
 }]));
 
 app.listen(port, () => {
-    console.log('Example review service listening on port port');
+    console.log(`Review service listening on port ${port}!`);
 });

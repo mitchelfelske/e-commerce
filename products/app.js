@@ -9,5 +9,5 @@ app.get('/', (req, res) => res.json([{
 }]))
 
 app.listen(port, () => {
-    console.log('Example product service listening on port port!');
+    console.log(`Product service listening on port ${port}!`);
 })
